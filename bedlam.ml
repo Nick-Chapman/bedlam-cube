@@ -177,22 +177,3 @@ let thePieces =
 
 (* Search solution space with given piece-order and cell-order. *)
 let () = go thePieces (List.map (fun n -> CELL n) (upto 0 63))
-
-(*
-
-First solution comes in a few seconds...
-
-   eeev   Dvvv   wwzz   fggz
-   DeBv   DeCh   Dwgg   ffgz
-   ACBB   DCCh   fwCh   fwxh
-   AAAB   AyyB   yyxh   yxxx
-
-
-More come after a wait...
-
-   wwwy   eDwf   DDDf   xDff
-   weBy   eehy   xhhf   xxhh
-   ACBB   eCCy   vggy   xgzz
-   AAAB   ACgB   vCgz   vvvz
-
-*)
