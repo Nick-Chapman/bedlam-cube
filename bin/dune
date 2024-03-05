@@ -1,0 +1,4 @@
+(executable
+ (public_name bedlam)
+ (name main)
+ (libraries bedlam))

@@ -176,4 +176,4 @@ let thePieces =
      ]
 
 (* Search solution space with given piece-order and cell-order. *)
-let () = go thePieces (List.map (fun n -> CELL n) (upto 0 63))
+let run() = go thePieces (List.map (fun n -> CELL n) (upto 0 63))
