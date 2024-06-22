@@ -1,2 +1,2 @@
 let () = print_endline "Running bedlam solver..."
-let () = Bedlam.run()
+let () = Solve_lib.Bedlam.run()

@@ -1,2 +1,3 @@
 (library
- (name bedlam))
+ (name solve_lib)
+ (libraries calendar))

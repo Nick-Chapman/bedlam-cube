@@ -1,4 +1,3 @@
-(executable
- (public_name bedlam)
- (name main)
- (libraries bedlam))
+(executables
+ (names main main25)
+ (libraries solve_lib))
